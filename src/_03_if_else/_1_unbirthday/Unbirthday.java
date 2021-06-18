@@ -8,9 +8,12 @@ public class Unbirthday {
 		// TODO Auto-generated method stub
 
 		String Birthday = JOptionPane.showInputDialog ("What is your birthday, (mm/dd)");
-		if  (Birthday.equalsIgnoreCase("06/11")); 
+		if  (Birthday.equalsIgnoreCase("06/11")){
 		JOptionPane.showMessageDialog(null, "Happy Birthday");
-
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "Happy Unbirthday");
+		}
 	
 	
 	
